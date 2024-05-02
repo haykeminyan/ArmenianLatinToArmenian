@@ -7,8 +7,9 @@ with open('README.md') as file:
 
 setup(
 	name="armenian_latin_to_armenian_hy",
-	version="0.0.1",
+	version="0.0.2",
 	description="Transliteration from Latin Armenian language to Armenian",
+	py_modules=["armenian_latin_to_armenian_hy", "armenian_transliterate"],
 	packages=find_packages(),
 	classifiers=[
 		"Programming Language :: Python :: 3",
